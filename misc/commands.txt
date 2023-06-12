@@ -1,0 +1,2 @@
+pg_ctl -D /System/Volumes/Data/opt/homebrew/var/postgresql@14 start
+psql -d slovotvir_db -f slovotvir.sql

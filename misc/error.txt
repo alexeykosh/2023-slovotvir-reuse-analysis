@@ -1,0 +1,1053 @@
+invalid command \n«Манить,
+ERROR:  syntax error at or near "47775"
+LINE 1: 47775 вилука 7163 8133 5 2021-11-22 09:52:06.743738 2021-11-...
+        ^
+ERROR:  syntax error at or near "["
+LINE 1: [...]".\r\n\r\nВимова:\r\n{ˈso̝ʷd.nɪ̞k ~ ˈso̝ʷnːɪ̞k, su(ʷ)d....
+        ^
+invalid command \nВід
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/6042-vysnuvaty.html#show_point
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/6042-vysnuvaty.html#show_point
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \nЗдалеку
+invalid command \N
+invalid command \nСУМ.
+invalid command \N
+invalid command \N
+invalid command \nВимова:
+invalid command \n/ˈʒærtβ̞ɑ/
+invalid command \nГвинт:
+invalid command \N
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/29039-moskal.html#show_point
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/18403-zastava.html#show_point
+invalid command \n
+invalid command \nСмітниця
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "33601"
+LINE 1: 33601 смітни́ця 4863 6519 7 2020-08-17 18:26:56.755574 2020-...
+        ^
+ERROR:  syntax error at or near "до"
+LINE 1: (до)стойний;
+         ^
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/56678-stijnyj.html#show_point
+invalid command \nhttp://oldrusdict.ru/dict.html#:
+invalid command \N
+invalid command \N
+invalid command \nСловник
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "до"
+LINE 1: (до)стійний 8649 8354 0 2022-01-26 06:21:59.689461 2022-01-3...
+         ^
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n___
+ERROR:  syntax error at or near ""2. Sex, sexus""
+LINE 1: "2. Sex, sexus", "3. Plätze, Rotfeder (Leuciscus erythrophta...
+        ^
+invalid command \N
+ERROR:  syntax error at or near "croya"
+LINE 1: croya 2325 8133 4 2021-11-22 19:22:12.504259 2021-11-22 19:2...
+        ^
+ERROR:  syntax error at or near "tna"
+LINE 1: tna 2325 8133 2 2021-11-22 19:27:14.33318 2021-11-22 19:27:1...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "<"
+LINE 1: <tin> (*y → *i) ← *tin-o-s, <tna> ← *tyn-a-. t f
+        ^
+ERROR:  syntax error at or near "товча"
+LINE 1: товча;
+        ^
+invalid command \nГадаю,
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "14806"
+LINE 1: 14806 винятковий 2051 3801 4 2018-01-11 14:55:59.863657 2018...
+        ^
+invalid command \nДодав
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n<гудáччя>;
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nМожна
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "лома"
+LINE 1: лома 8649 8371 1 2022-02-03 22:25:19.32951 2022-02-03 22:34:...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://uk.wikipedia.org/wiki/%D0%94%D0%B6%D1%83%D1%80%D0%B0
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n»тільки
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "9252"
+LINE 1: 9252 заплічник 389 2859 49 2016-09-02 20:53:32.066702 2017-1...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://r2u.org.ua/s?w=%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D0%B8&scope=all&dicts=all&highlight=on
+ERROR:  syntax error at or near "43668"
+LINE 1: 43668 inaco ;
+        ^
+ERROR:  syntax error at or near "inacye"
+LINE 1: inacye (inace) ;
+        ^
+invalid command \n/ɪˈnɑko/;
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nСемантично
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nПерше
+invalid command \N
+invalid command \N
+invalid command \nЕСУМ
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \n»Хинеи
+invalid command \N
+invalid command \N
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/6042-vysnuvaty.html#show_point
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nНайвища
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nФраму́га
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nКнигозбірник
+invalid command \N
+ERROR:  syntax error at or near "43758"
+LINE 1: 43758 питомство 7692 7011 1 2021-07-12 18:58:05.445414 2021-...
+        ^
+invalid command \N
+ERROR:  syntax error at or near "забавник»"
+LINE 1: забавник». f f
+        ^
+ERROR:  syntax error at or near "викривати"
+LINE 1: викривати, виявляти;
+        ^
+ERROR:  syntax error at or near "указувати"
+LINE 1: указувати, ганьбити», сок «обвинувач, свідок;
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nВоя
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttp://sum.in.ua/s/storch
+invalid command \nhttp://sum.in.ua/s/storch
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "47128"
+LINE 1: 47128 овжо- 4416 4713 1 2021-11-03 06:39:58.371123 2021-11-0...
+        ^
+invalid command \N
+invalid command \n
+invalid command \N
+ERROR:  syntax error at or near "9424"
+LINE 1: 9424 полякай 2438 2904 0 2016-09-12 13:29:17.414241 2016-09-...
+        ^
+ERROR:  syntax error at or near "штрих"
+LINE 1: штрих, лінія;
+        ^
+invalid command \nhttps://goroh.pp.ua/%D0%95%D1%82%D0%B8%D0%BC%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F/%D1%81%D0%BB%D1%8E%D0%B3%D0%B0
+invalid command \N
+ERROR:  syntax error at or near "47129"
+LINE 1: 47129 суродок 8649 7885 0 2021-11-03 07:35:58.558818 2021-11...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://slovotvir.org.ua/words/dakh
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nНавіщо
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nБо
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "9451"
+LINE 1: 9451 лінія 2457 2900 0 2016-09-13 11:58:30.580182 2016-09-13...
+        ^
+ERROR:  syntax error at or near "звичне"
+LINE 1: звичне, люди його знають;
+        ^
+ERROR:  syntax error at or near "питомо"
+LINE 1: питомо українське, а не як з "льотчиком";
+        ^
+invalid command \N
+invalid command \nПо́ле
+invalid command \nПо́ле
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nАммиак
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nТакож
+ERROR:  syntax error at or near "43803"
+LINE 1: 43803 стиг 5674 2779 1 2021-07-13 07:22:23.188826 2021-07-13...
+        ^
+invalid command \nhttps://goroh.pp.ua/%D0%95%D1%82%D0%B8%D0%BC%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F/%D1%81%D1%82%D0%B8%D0%B3
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://en.wiktionary.org/wiki/%CF%80%CF%81%CF%89%CF%84%CE%BF-
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/64547-cheren.html#show_point
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \nСловарь
+invalid command \nЭнтерит
+invalid command \nhttps://slovotvir.org.ua/words/mif#t24285
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "9508"
+LINE 1: 9508 корінник 2487 1548 3 2016-09-15 16:09:17.452188 2016-09...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "і"
+LINE 1: і в друс. t f
+        ^
+invalid command \N
+invalid command \N
+invalid command \nВід
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \nГоспець
+ERROR:  syntax error at or near "48501"
+LINE 1: 48501 рубіжна оружина 7096 8235 1 2021-12-11 09:11:59.381646...
+        ^
+invalid command \n*Госп
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nИно
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttp://oldrusdict.ru/dict.html#
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \nАнтонім
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "9525"
+LINE 1: 9525 оглядини 1920 2917 13 2016-09-16 09:31:00.913551 2016-1...
+        ^
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nСл.
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://archive.org/details/slov30/page/n20/mode/1up?view=theater
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nЕСУМ
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "12350"
+LINE 1: 12350 звукори́ска 2423 648 1 2017-06-09 17:10:46.536909 2017...
+        ^
+invalid command \nНапр.
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://en.wiktionary.org/wiki/nota#Latin
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/56360-stavyty.html#show_point
+invalid command \N
+ERROR:  syntax error at or near "2755"
+LINE 1: 2755 залицяння
+        ^
+ERROR:  syntax error at or near "dòsc"
+LINE 1: dòsc- "tabl-" + -yk- "-ett-" + -a "-e (*-a)";
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \nРатами
+invalid command \nhttp://sum.in.ua/s/plyn
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nБуцегарня
+invalid command \nhttp://sum.in.ua/s/prud
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nФаза
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nП'ять
+invalid command \nhttps://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%B5%D0%B7%D0%B0
+invalid command \N
+invalid command \nМожна
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nФілейний
+invalid command \nTuoryeno
+invalid command \N
+ERROR:  syntax error at or near "47151"
+LINE 1: 47151 кіп на донці, кіп по донцю 2325 6574 2 2021-11-03 22:1...
+        ^
+invalid command \nНа
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttp://hrinchenko.com/slovar/znachenie-slova/4692-veselukha.html#show_point
+invalid command \N
+invalid command \N
+invalid command \nЧастковий
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nПереклад
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "11477"
+LINE 1: 11477 доробець 389 3202 0 2017-03-19 23:49:19.528493 2017-03...
+        ^
+ERROR:  syntax error at or near "мовби"
+LINE 1: мовби;
+        ^
+ERROR:  syntax error at or near "мовбито"
+LINE 1: мовбито;
+        ^
+ERROR:  syntax error at or near "немов"
+LINE 1: немов;
+        ^
+ERROR:  syntax error at or near "немовби"
+LINE 1: немовби;
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nПодоро́жник
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+ERROR:  syntax error at or near "немовбито"
+LINE 1: немовбито 8552 7761 6 2021-08-16 19:12:49.491975 2021-08-17 ...
+        ^
+invalid command \nскливо
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "45082"
+LINE 1: 45082 нержавки́й 1673 7797 5 2021-08-31 04:18:31.960598 2021...
+        ^
+ERROR:  syntax error at or near "←"
+LINE 1: ← *Uenet-y-o-s, *-y- — possessive suffix (rwfni: <Galityu> /...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "mõg"
+LINE 1: mõg. rwd za slovom "gòrôd" (*<Veneityu gòrôd>; gein. rwd u i...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://r2u.org.ua/s?w=%D0%BF%D1%80%D0%BE%D0%BB%D1%96%D1%82&scope=all&dicts=all&highlight=on
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \n"Зробімо
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nОднина,
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nЕСУМ:
+invalid command \N
+invalid command \nhttps://r2u.org.ua/s?w=%D1%80%D0%B5%D0%BB%D1%8F&scope=all&dicts=all&highlight=on
+invalid command \nУ
+invalid command \nhttps://r2u.org.ua/s?w=%D0%A1%D0%BF%D0%BE%D0%B3%D0%BB%D1%8F%D0%B4%D0%B0%D1%82%D0%B8&scope=all&dicts=all&highlight=on
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nhttps://r2u.org.ua/s?w=%D1%82%D0%B0%D0%B9%D0%BD%D0%B0&scope=all&dicts=all&highlight=on
+invalid command \N
+invalid command \N
+invalid command \n(Сл.
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \N
+invalid command \nДодаю
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n(Сл.
+invalid command \N
+invalid command \N
+invalid command \nUpgrade
+invalid command \N
+ERROR:  syntax error at or near "36738"
+LINE 1: 36738 лу́чи́тися 5674 6912 4 2020-12-24 16:25:07.545616 2020...
+        ^
+invalid command \nЗ
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \nЧому
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nУ
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nРос.-укр.
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "9895"
+LINE 1: 9895 наймальник 2424 831 2 2016-10-09 09:42:04.638241 2016-1...
+        ^
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \nТобто
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \n
+invalid command \N
+invalid command \nЖелехівський
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "47210"
+LINE 1: 47210 твердо 2042 4220 1 2021-11-06 13:00:42.835427 2021-11-...
+        ^
+ERROR:  syntax error at or near "←"
+LINE 1: ← *roupil- (roupilo ← *roup-i- + - dl- — agent suffix, "doer...
+        ^
+invalid command \n___
+invalid command \N
+invalid command \N
+invalid command \N
+ERROR:  syntax error at or near "36535"
+LINE 1: 36535 шльондра 2873 6871 2 2020-12-17 08:41:49.18696 2020-12...
+        ^
+ERROR:  syntax error at or near "twnyba"
+LINE 1: twnyba 2325 8238 2 2021-12-14 00:52:53.594494 2021-12-14 00:...
