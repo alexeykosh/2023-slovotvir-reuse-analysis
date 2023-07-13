@@ -11,4 +11,4 @@
 module load python
 
 ## Execute the python script and pass the argument/input '90'
-srun python src/model.py
+srun python src/model.py 1 0
