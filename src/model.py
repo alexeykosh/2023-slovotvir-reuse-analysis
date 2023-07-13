@@ -91,16 +91,16 @@ if __name__ == '__main__':
     b = float(sys.argv[2]) # rank 
 
     # unpickle data
-    with open('/data/home/alexey/alexey_files/2023-slovotvir-reuse-analysis/src/n_words.pkl', 'rb') as f:
+    with open('../data/n_words.pkl', 'rb') as f:
         words_series = pickle.load(f)
     
-    with open('/data/home/alexey/alexey_files/2023-slovotvir-reuse-analysis/src/data/n_translations.pkl', 'rb') as f:
+    with open('../data/n_translations.pkl', 'rb') as f:
         translation_series = pickle.load(f)
     
-    with open('/data/home/alexey/alexey_files/2023-slovotvir-reuse-analysis/src/data/votes.pkl', 'rb') as f:
+    with open('../data/votes.pkl', 'rb') as f:
         votes_user = pickle.load(f)
 
-    with open('/data/home/alexey/alexey_files/2023-slovotvir-reuse-analysis/src/data/translation_len.pkl', 'rb') as f:
+    with open('../data/translation_len.pkl', 'rb') as f:
         length_distr = pickle.load(f)
     
     # run model
@@ -117,5 +117,5 @@ if __name__ == '__main__':
     ranked = np.argsort(likes)[::-1]
 
     # save results
-    with open(f'/data/home/alexey/alexey_files/2023-slovotvir-reuse-analysis/src/data/likes-a{a}-b{b}.pkl', 'wb') as f:
+    with open(f'../data/likes-a{a}-b{b}.pkl', 'wb') as f:
         pickle.dump(likes[ranked])
