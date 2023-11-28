@@ -98,10 +98,12 @@ class SlovotvirModel:
     def like_prob(self, 
                   lengths, 
                   likes) -> np.ndarray:
+        '''Calculates the probability of liking each translation.'''
         probs = lengths ** self.a + likes ** self.b
         return probs / probs.sum()
     
     def run_epoch(self, epoch) -> None:
+        '''Runs an epoch.'''
         # n_words = self.n_words[epoch]
         n_translations = self.n_translations[epoch]
         votes = self.votes[epoch]
@@ -117,13 +119,13 @@ class SlovotvirModel:
         for i in non_zero_indices:
             n = translation_num[i]
             self.words[i][0] += [0] * n # initialize likes to 0
-            self.words[i][1] += np.random.choice(self.translation_len, n).tolist() 
+            self.words[i][1] += np.random.choice(self.translation_len, n).tolist()
 
         indices = np.array([i for i in range(cum_words) if len(self.words[i][0]) > 0])
         cum_likes = np.array([sum(self.words[i][1]) for i in indices])
-        indices = np.random.choice(indices, 
-                                   size=votes, 
-                                   p=adjust_entropy(cum_likes / cum_likes.sum(), temperature=self.t), 
+        indices = np.random.choice(indices,
+                                   size=votes,
+                                   p=adjust_entropy(cum_likes / cum_likes.sum(), temperature=self.t),
                                    replace=True)
         
         for _ in indices:
@@ -141,6 +143,7 @@ class SlovotvirModel:
             self.words[_][0][likes.tolist().index(translation)] += 1
 
     def run(self) -> None:
+        '''Runs the model.'''
         n_epochs = len(self.n_words)
         for epoch in range(n_epochs):
             self.run_epoch(epoch)
@@ -156,4 +159,5 @@ def run_model(params):
         likes += model.words[i][0]
 
     likes = np.array(likes)
-    return np.array(summary_func(likes))
+
+    return np.histogram(likes, bins=100)[0]
