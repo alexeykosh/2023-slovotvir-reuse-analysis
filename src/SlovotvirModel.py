@@ -20,30 +20,30 @@ with open('../data/true_likes.pkl', 'rb') as f:
     true_likes = pickle.load(f)
 
 
-def shannon_diversity_index(likes):
-    '''Calculates the Shannon diversity index.'''
-    likes_sorted = np.sort(likes)[::-1]
-    _, like_counts = np.unique(likes_sorted, return_counts=True)
-    like_proportions = like_counts / np.sum(like_counts)
-    return -np.sum(like_proportions * np.log(like_proportions))
+# def shannon_diversity_index(likes):
+#     '''Calculates the Shannon diversity index.'''
+#     likes_sorted = np.sort(likes)[::-1]
+#     _, like_counts = np.unique(likes_sorted, return_counts=True)
+#     like_proportions = like_counts / np.sum(like_counts)
+#     return -np.sum(like_proportions * np.log(like_proportions))
 
 
-def simpson_diversity_index(likes):
-    '''Calculates the Simpson diversity index.'''
-    likes_sorted = np.sort(likes)[::-1]
-    _, like_counts = np.unique(likes_sorted, return_counts=True)
-    like_proportions = like_counts / np.sum(like_counts)
-    return np.sum(like_proportions ** 2)
+# def simpson_diversity_index(likes):
+#     '''Calculates the Simpson diversity index.'''
+#     likes_sorted = np.sort(likes)[::-1]
+#     _, like_counts = np.unique(likes_sorted, return_counts=True)
+#     like_proportions = like_counts / np.sum(like_counts)
+#     return np.sum(like_proportions ** 2)
 
 
-def summary_func(likes):
-    '''Calculates the summary statistics of a list of likes.'''
-    return np.mean(likes == 1), \
-        likes.max() / np.sum(likes), \
-            shannon_diversity_index(likes), \
-                simpson_diversity_index(likes), \
-                    np.mean(likes), \
-                        np.median(likes)
+# def summary_func(likes):
+#     '''Calculates the summary statistics of a list of likes.'''
+#     return np.mean(likes == 1), \
+#         likes.max() / np.sum(likes), \
+#             shannon_diversity_index(likes), \
+#                 simpson_diversity_index(likes), \
+#                     np.mean(likes), \
+#                         np.median(likes)
 
 
 def min_max_scaling_numpy(data, new_min=1, new_max=10):
@@ -131,7 +131,7 @@ class SlovotvirModel:
         for _ in indices:
             # get the word
             likes = min_max_scaling_numpy(np.array(self.words[_][0]))
-            lengths = min_max_scaling_numpy(np.array(self.words[_][1]))
+            lengths = min_max_scaling_numpy(1 / np.array(self.words[_][1]))
 
             # get the probability of liking each translation
             probs = self.like_prob(lengths, likes)
@@ -160,4 +160,4 @@ def run_model(params):
 
     likes = np.array(likes)
 
-    return np.histogram(likes, bins=100)[0]
+    return np.histogram(likes, bins=1000)[0]
