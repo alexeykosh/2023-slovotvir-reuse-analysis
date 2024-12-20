@@ -16,9 +16,6 @@ with open('data/votes.pkl', 'rb') as f:
 with open('data/n_translations.pkl', 'rb') as f:
     n_translations = pickle.load(f)
 
-with open('data/true_likes.pkl', 'rb') as f:
-    true_likes = pickle.load(f)
-
 # usefull functions
 def safelog(x):
     '''Safe log function.'''
