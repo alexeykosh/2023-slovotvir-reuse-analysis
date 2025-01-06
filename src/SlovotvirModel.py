@@ -3,17 +3,17 @@ from multiprocessing import Pool
 import pickle
 
 # Load data
-with open('data/n_words.pkl', 'rb') as f:
+with open('../data/n_words.pkl', 'rb') as f:
     n_words = pickle.load(f)
 
-with open('data/translation_len.pkl', 'rb') as f:
+with open('../data/translation_len.pkl', 'rb') as f:
     translation_len = pickle.load(f)
 
-with open('data/votes.pkl', 'rb') as f:
+with open('../data/votes.pkl', 'rb') as f:
     votes = pickle.load(f)
     votes = np.array([sum(v) for v in votes.values()])
 
-with open('data/n_translations.pkl', 'rb') as f:
+with open('../data/n_translations.pkl', 'rb') as f:
     n_translations = pickle.load(f)
 
 # usefull functions
