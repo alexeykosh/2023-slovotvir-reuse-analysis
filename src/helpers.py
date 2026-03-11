@@ -5,6 +5,7 @@ from tabulate import tabulate
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 from matplotlib import lines
 from bayesflow.amortizers import AmortizedPosterior
 from bayesflow.networks import (InvertibleNetwork, 
@@ -13,6 +14,40 @@ from bayesflow.networks import (InvertibleNetwork,
 from bayesflow.trainers import (Trainer, 
                                 SimulationDataset)
 import tensorflow as tf
+
+def tufte_style(ax=None, spine_gap=10):
+    """
+    Apply a Tufte-inspired minimalist style to a plot.
+
+    Parameters:
+    - ax: Matplotlib Axes object. If None, style is applied globally.
+    - spine_gap: Gap in points to separate spines from axes.
+    """
+    # Global Tufte styling
+    mpl.rc('axes', edgecolor='black', linewidth=0.5, labelcolor='black', facecolor='none')
+    mpl.rc('xtick', labelcolor='black', direction='out')
+    mpl.rc('ytick', labelcolor='black', direction='out')
+    mpl.rc('lines', linewidth=1, color='black')
+    mpl.rc('font', family='serif', size=10)
+    mpl.rc('legend', frameon=False)
+    mpl.rc('axes', grid=False, axisbelow=True)
+    mpl.rcParams['xtick.major.pad'] = 6
+    mpl.rcParams['ytick.major.pad'] = 4
+    mpl.rcParams['axes.spines.top'] = False
+    mpl.rcParams['axes.spines.right'] = False
+
+    if ax is not None:
+        # Customize specific plot
+        ax.spines['left'].set_position(('outward', spine_gap))
+        ax.spines['bottom'].set_position(('outward', spine_gap))
+        ax.spines['left'].set_visible(True)
+        ax.spines['bottom'].set_visible(True)
+        ax.tick_params(axis='both', direction='out', length=3, width=0.5)
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+    else:
+        # If no Axes provided, set global style
+        plt.rc('axes', axisbelow=True)
 
 
 def generate_latex_table(ps,
@@ -195,7 +230,7 @@ def train_and_amortize(train_data,
     schedule = tf.keras.optimizers.schedules.CosineDecay(learning_rate, 
                                                          epochs * SimulationDataset(train_data, 
                                                                                     batch_size).num_batches, 
-                                                        name = "lr_decay")
+                                                         name = "lr_decay")
     optimizer = tf.keras.optimizers.legacy.Adam(schedule, global_clipnorm = 1)
 
     # Run training

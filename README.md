@@ -41,23 +41,51 @@ Contains Python scripts for processing data:
 
 All the analyses were run on Python 3.11.7.
 
-#### Workflow:
+#### Quick Setup (Recommended):
 
-1. **Install Dependencies:**
-   Install the required Python packages by running:
+Run the automated setup script to create a virtual environment and install all dependencies:
+
+```bash
+./setup.sh
+```
+
+This will:
+- Create a `.venv` virtual environment
+- Install all required packages with pinned versions
+- Register a Jupyter kernel named "Python (Slovotvir)"
+
+After setup, activate the environment:
+```bash
+source .venv/bin/activate
+```
+
+#### Manual Setup:
+
+If you prefer to set up manually:
+
+1. **Create Virtual Environment:**
    ```bash
+   python3.11 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
-2. **Preprocess Data:**
+#### Running the analyses:
+
+1. **Preprocess Data:**
    - Run the `1. Data.ipynb` notebook to preprocess the data.
     - Run the `generate_data.py` script to generate data using the generative model:
     ```bash
     python src/generate_data.py
     ```
 
-3. **Run the Analysis:**
+2. **Run the Analyses:**
    - Run the `2. Generative Model.ipynb` notebook to analyze the generative model.
    - Run the `3. Inference.ipynb` notebook to perform parameter inference using BayesFlow.
    - Run the `4. Posterior analysis.ipynb` notebook to analyze the posterior distribution of the parameters.
-   - Run the `5. Corpus analysis.ipynb` notebook to analyze the corpus of translations.
+   - Download the 1M 2023 News corpus from [here](https://wortschatz-leipzig.de/en/download/ukr) and place it in the `data/` folder. Run the `5. Corpus analysis.ipynb` notebook to analyze the corpus data and the list of translations.
