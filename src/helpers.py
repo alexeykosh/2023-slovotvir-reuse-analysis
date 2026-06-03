@@ -1,19 +1,6 @@
 '''Helper functions for the Bayesian inference of the Slovotvir model.'''
 
-import arviz as az
-from tabulate import tabulate
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-from matplotlib import lines
-from bayesflow.amortizers import AmortizedPosterior
-from bayesflow.networks import (InvertibleNetwork, 
-                                DeepSet,
-                                SetTransformer)
-from bayesflow.trainers import (Trainer, 
-                                SimulationDataset)
-import tensorflow as tf
 
 def tufte_style(ax=None, spine_gap=10):
     """
@@ -23,6 +10,9 @@ def tufte_style(ax=None, spine_gap=10):
     - ax: Matplotlib Axes object. If None, style is applied globally.
     - spine_gap: Gap in points to separate spines from axes.
     """
+    import matplotlib as mpl
+    import matplotlib.pyplot as plt
+
     # Global Tufte styling
     mpl.rc('axes', edgecolor='black', linewidth=0.5, labelcolor='black', facecolor='none')
     mpl.rc('xtick', labelcolor='black', direction='out')
@@ -55,6 +45,9 @@ def generate_latex_table(ps,
     '''
     Generate a latex table from the posterior samples of the parameters.
     '''
+    import arviz as az
+    from tabulate import tabulate
+
     table_data = []
     for i, p in enumerate(ps):
         row = [p, np.mean(post_samples[:, i]).round(3), 
@@ -138,6 +131,11 @@ def plot_posterior(post_samples_,
     save: str
         The name of the file to save the figure.
     '''
+    import arviz as az
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    from matplotlib import lines
+
     num_params = len(param_names)
     fig, axs = plt.subplots(1, num_params, figsize=(10, 3.5))
 
@@ -214,6 +212,11 @@ def train_and_amortize(train_data,
     '''
     Train and amortize given the simulation data using the BayesFlow framework.
     '''
+    from bayesflow.amortizers import AmortizedPosterior
+    from bayesflow.networks import DeepSet, InvertibleNetwork
+    from bayesflow.trainers import SimulationDataset, Trainer
+    import tensorflow as tf
+
     summary_net = DeepSet(summary_dim=summary_dim)
     # summary_net = SetTransformer(input_dim=train_data["sim_data"].shape[1],)
     inference_net = InvertibleNetwork(num_params=num_params, num_coupling_layers=4)
@@ -279,6 +282,7 @@ def letter_subplots(axes=None, letters=None, xoffset=-0.1, yoffset=1.0, **kwargs
 
     See also: https://github.com/matplotlib/matplotlib/issues/20182
     """
+    import matplotlib.pyplot as plt
 
     # get axes:
     if axes is None:

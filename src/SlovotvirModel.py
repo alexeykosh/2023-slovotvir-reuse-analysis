@@ -1,19 +1,24 @@
 import numpy as np
-from multiprocessing import Pool
+import os
+from multiprocessing import get_context
 import pickle
+import sys
+from pathlib import Path
+
+DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
 
 # Load data
-with open('../data/n_words.pkl', 'rb') as f:
+with open(DATA_DIR / 'n_words.pkl', 'rb') as f:
     n_words = pickle.load(f)
 
-with open('../data/translation_len.pkl', 'rb') as f:
+with open(DATA_DIR / 'translation_len.pkl', 'rb') as f:
     translation_len = pickle.load(f)
 
-with open('../data/votes.pkl', 'rb') as f:
+with open(DATA_DIR / 'votes.pkl', 'rb') as f:
     votes = pickle.load(f)
     votes = np.array([sum(v) for v in votes.values()])
 
-with open('../data/n_translations.pkl', 'rb') as f:
+with open(DATA_DIR / 'n_translations.pkl', 'rb') as f:
     n_translations = pickle.load(f)
 
 # usefull functions
@@ -107,9 +112,13 @@ def refactor(model):
 
     return sorted_likes, sorted_likes * sorted_lengths
 
-def run_model_parallel(a, b, t, num_runs, batch_size=1000):
+def run_model_parallel(a, b, t, num_runs, batch_size=1000, max_procs=None):
     '''Run the model in parallel for multiple instances.'''
-    num_processes = 32  # Number of processes
+    if max_procs is None:
+        max_procs = max(1, (os.cpu_count() or 2) - 1)
+    num_processes = max(1, min(max_procs, num_runs))
+    start_method = 'spawn' if sys.platform == 'darwin' else None
+    ctx = get_context(start_method)
 
     # Calculate number of batches
     num_batches = (num_runs + batch_size - 1) // batch_size
@@ -124,10 +133,13 @@ def run_model_parallel(a, b, t, num_runs, batch_size=1000):
         models = [SlovotvirModel(n_words, translation_len, votes, n_translations, 
                                  a[i], b[i], t[i]) for i in range(start_idx, end_idx)]
 
-        # Use multiprocessing to run models for the current batch
-        with Pool(num_processes) as pool:
-            batch_results = pool.map(run_model_instance, 
-                                     [(model, len(n_words)) for model in models])
+        model_args = [(model, len(n_words)) for model in models]
+        if num_processes == 1:
+            batch_results = [run_model_instance(args) for args in model_args]
+        else:
+            # Use multiprocessing to run models for the current batch
+            with ctx.Pool(num_processes) as pool:
+                batch_results = pool.map(run_model_instance, model_args)
 
         results.extend([refactor(model) for model in batch_results])
         

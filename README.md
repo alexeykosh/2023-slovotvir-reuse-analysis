@@ -79,9 +79,17 @@ If you prefer to set up manually:
 
 1. **Preprocess Data:**
    - Run the `1. Data.ipynb` notebook to preprocess the data.
-    - Run the `generate_data.py` script to generate data using the generative model:
+   - Run a quick smoke test of the generative model:
     ```bash
-    python src/generate_data.py
+    QUICK=1 python -m src.generate_data
+    ```
+   - Run the full `generate_data.py` script to generate data using the generative model:
+    ```bash
+    python -m src.generate_data
+    ```
+   - You can limit worker processes during full generation with:
+    ```bash
+    python -m src.generate_data --max-procs 4
     ```
 
 2. **Run the Analyses:**
@@ -89,3 +97,9 @@ If you prefer to set up manually:
    - Run the `3. Inference.ipynb` notebook to perform parameter inference using BayesFlow.
    - Run the `4. Posterior analysis.ipynb` notebook to analyze the posterior distribution of the parameters.
    - Download the 1M 2023 News corpus from [here](https://wortschatz-leipzig.de/en/download/ukr) and place it in the `data/` folder. Run the `5. Corpus analysis.ipynb` notebook to analyze the corpus data and the list of translations.
+
+#### Notes:
+
+- Python 3.10 or 3.11 is recommended because TensorFlow and BayesFlow have narrower version compatibility than the preprocessing code.
+- `src.helpers` can be imported without TensorFlow/BayesFlow installed; those packages are only imported when `train_and_amortize()` is called.
+- Full data generation is long-running. Use `QUICK=1 python -m src.generate_data` for a fast local check before launching the full run.

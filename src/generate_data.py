@@ -1,47 +1,70 @@
 ## Python 3.11.7
 
-from os import name
+import argparse
+import os
+from pathlib import Path
 from src.SlovotvirModel import run_model_parallel
-from src.helpers import (binning,
-                         plot_posterior,
-                         train_and_amortize, 
-                         preprocess_input)
+from src.helpers import preprocess_input
 import pickle
 import numpy as np
 import time
 
-# set up the size of the data
-train_size = 100000
-test_size = 10000
-valid_size = 10000
-
-# priors
-training_params = (np.random.uniform(-5, 1, train_size), 
-                np.random.uniform(-2, 2, train_size), 
-                np.random.lognormal(0, 0.5, train_size))
-testing_params = (np.random.uniform(-5, 1, test_size), 
-                np.random.uniform(-2, 2, test_size), 
-                np.random.lognormal(0, 0.5,  test_size))
-validation_params =(np.random.uniform(-5, 1, valid_size), 
-                    np.random.uniform(-2, 2, valid_size), 
-                    np.random.lognormal(0, 0.5,  valid_size))
+DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
 
 
-if name == '__main__':
+def parse_args():
+    parser = argparse.ArgumentParser(description='Generate Slovotvir model data.')
+    parser.add_argument('--quick', action='store_true',
+                        help='Run a small smoke-test generation.')
+    parser.add_argument('--max-procs', type=int, default=None,
+                        help='Maximum worker processes to use.')
+    parser.add_argument('--batch-size', type=int, default=1000,
+                        help='Number of simulations per multiprocessing batch.')
+    return parser.parse_args()
+
+
+def make_params(size):
+    return (np.random.uniform(-5, 1, size),
+            np.random.uniform(-2, 2, size),
+            np.random.lognormal(0, 0.5, size))
+
+
+if __name__ == '__main__':
+    args = parse_args()
+    quick = args.quick or os.getenv('QUICK') == '1'
+
+    # set up the size of the data
+    train_size = 10 if quick else 100000
+    test_size = 4 if quick else 10000
+    valid_size = 4 if quick else 10000
+    batch_size = min(args.batch_size, train_size) if quick else args.batch_size
+    max_procs = args.max_procs if args.max_procs is not None else (1 if quick else None)
+
+    # priors
+    training_params = make_params(train_size)
+    testing_params = make_params(test_size)
+    validation_params = make_params(valid_size)
+
     print('Generating data...')
     # generating
     training_data = run_model_parallel(training_params[0], 
                                     training_params[1], 
                                     training_params[2], 
-                                    train_size)
+                                    train_size,
+                                    batch_size=batch_size,
+                                    max_procs=max_procs)
     testing_data = run_model_parallel(testing_params[0], 
                                     testing_params[1], 
                                     testing_params[2], 
-                                    test_size)
+                                    test_size,
+                                    batch_size=batch_size,
+                                    max_procs=max_procs)
     validation_data = run_model_parallel(validation_params[0], 
                                         validation_params[1], 
                                         validation_params[2], 
-                                        valid_size)
+                                        valid_size,
+                                        batch_size=batch_size,
+                                        max_procs=max_procs)
 
     # refactoring priors
     training_params = np.vstack(training_params)
@@ -77,9 +100,11 @@ if name == '__main__':
     print('Saving data...')
 
     # get today's date
-    pickle.dump(train_data, 
-                open(f"../data/train_data_{time.strftime("%Y%m%d")}.pkl", "wb"))
-    pickle.dump(test_data, 
-                open(f"../data/test_data_{time.strftime("%Y%m%d")}.pkl", "wb"))
-    pickle.dump(valid_data, 
-                open(f"../data/valid_data_{time.strftime("%Y%m%d")}.pkl", "wb"))
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    today = time.strftime('%Y%m%d')
+    with open(DATA_DIR / f'train_data_{today}.pkl', 'wb') as f:
+        pickle.dump(train_data, f)
+    with open(DATA_DIR / f'test_data_{today}.pkl', 'wb') as f:
+        pickle.dump(test_data, f)
+    with open(DATA_DIR / f'valid_data_{today}.pkl', 'wb') as f:
+        pickle.dump(valid_data, f)
