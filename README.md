@@ -1,9 +1,11 @@
 # Slovotvir: natural experiment in lexical evolution
 ## Online supplement
 
+Online supplement for the paper ["Slovotvir: Grassroots reform of the Ukrainian language reveals the role of drift and selection in language change"]([url](https://doi.org/10.1093/pnasnexus/pgag258)), published in PNAS Nexus. 
+
 **Manual Version Number:** 1.0.0
 
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13740276.svg)](https://doi.org/10.5281/zenodo.13740276) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13740276.svg)](https://doi.org/10.5281/zenodo.13740276)
 
 ### Short Summary:
 Languages evolve under various pressures, but identifying the forces that shape word popularity remains a challenge. This study investigates the mechanisms driving translation popularity in natural language using data from Slovotvir, a Ukrainian crowdsourcing platform where users propose and rank alternative translations for borrowed words. We test two competing hypotheses: selection, where intrinsic properties of translations—such as length or prior popularity—affect user preferences, and random drift, where stochastic processes dominate. Using an agent-based model and Bayesian inference, we analyze user behavior to assess the roles of length bias, frequency bias, and drift in shaping translation choices. Our findings indicate a significant preference for shorter translations, consistent with selection for brevity, while translation popularity itself does not influence user choices. Instead, users explore words in a manner consistent with random drift, selecting them in proportion to the number of likes received by their most-liked translation. These results provide empirical support for the role of selection in lexical evolution while highlighting the influence of drift in shaping word exploration dynamics.
