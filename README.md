@@ -1,7 +1,7 @@
 # Slovotvir: natural experiment in lexical evolution
 ## Online supplement
 
-Online supplement for the paper ["Slovotvir: Grassroots reform of the Ukrainian language reveals the role of drift and selection in language change"]([url](https://doi.org/10.1093/pnasnexus/pgag258)), published in PNAS Nexus. 
+Online supplement for the paper ["Slovotvir: Grassroots reform of the Ukrainian language reveals the role of drift and selection in language change"](https://doi.org/10.1093/pnasnexus/pgag258), published in PNAS Nexus. 
 
 **Manual Version Number:** 1.0.0
 
